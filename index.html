@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="output.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.min.css">
+    <title>tailwind-page</title>
+</head>
+<body>
+    <nav class="container text-yellow-950 bg-amber-50 font-bold text-lg mx-auto p-6 ">
+        <div class="flex item-center justify-between">
+            <div class="">
+                <img  src="images/pet-lover-logo.png" alt="logo" class="max-w-28 max-h-28 -mt-1">
+            </div>
+            <div class="hidden md:flex space-x-6 items-center ">
+                <a href="#" class="hov">Portofolio</a>
+                <a href="#" class="hov">About</a>
+                <a href="#" class="hov">Social</a>
+                <a href="#" class="hov">Contact</a>
+                <a href="#" class="px-6 py-2 rounded-full bg-amber-500 text-white hover:bg-amber-600 hover:text-lg">Call Us</a>
+            </div>
+
+            <button id="mobile-btn" class="md:hidden text-3xl"><i class="ri-menu-line text-2xl"></i>
+            </button>
+        </div>
+        <div class="md:hidden">
+            <div id="mobile-menu" class="absolute flex hidden flex-col items-center space-y-4 font-bold bg-stone-50 py-8 left-6 right-6 drop-shadow-lg border-gray-300">
+                <a href="#" class="hov">Portofolio</a>
+                <a href="#" class="hov">About</a>
+                <a href="#" class="hov">Social</a>
+                <a href="#" class="hov">Contact</a>
+                <a href="#" class="px-6 py-2 rounded-full bg-amber-500 text-white hover:bg-amber-600 hover:text-lg">Call Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <section id="animal">
+        <div class="container mx-auto px-6 space-x-6 flex flex-col-reverse md:flex-row">
+            <div class="md:w-1/2 flex flex-col justify-center space-y-5 py-8 text-center md:text-left">
+                <h1 class="font-bold text-lime-700 text-3xl md:text-5xl">Veterinary care</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique vel asperiores consequatur suscipit eligendi harum iste totam, fugiat eos voluptatem eveniet quasi, est atque delectus at soluta? Accusamus voluptates et impedit? Ad magnam facere ut exercitationem, eveniet incidunt iste optio quam, esse doloremque, maxime quae velit officiis quaerat excepturi aliquid.</p>
+                <a href="#" class="px-6 py-2 rounded-full self-center md:self-start bg-amber-500 text-white hover:bg-amber-600 hover:text-lg">Call Us</a>
+            </div>
+            <div class="md:w-1/2">
+                <img src="images/dog.png">
+            </div>
+        </div>
+    </section>
+
+    <section id="feedback">
+        <div class=" container mx-auto px-5 mx-32 text-center ">
+            <h2 class="font-bold text-4xl">Our Mission is to Help You and Your Pets</h2>
+
+            <p class="mt-8 max-w-5xl mx-auto text-justify md:text-center">There is a high demand for basic vet care, so we focus our resources right there - doing the basics well, and allowing us to treat more animals. We offer high-quality services that promote responsible pet ownership</p>
+
+            <div class="mt-10 mb-10 flex flex-col space-x-0 space-y-5 md:flex-row md:space-x-5  md:space-y-0">
+
+                <div class=" md:w-1/3 bg-amber-50 flex flex-col items-center p-6 space-y-2 rounded-lg border border-yellow-950">
+                    <img src="images/menna.jpg" class="w-16 rounded-full -mt-11">
+                    <h5 class="font-bold text-lg text-lime-700">Menna Rdai</h5>
+                    <p class="leading-7 text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe amet dicta quaerat laborum nisi earum sit aut atque eum exercitationem.</p>
+                </div>
+                <div class=" md:w-1/3 bg-amber-50 flex flex-col items-center p-6 space-y-2 rounded-lg border border-yellow-950">
+                    <img src="images/ali-ashour.jpg" class="w-16 rounded-full -mt-11">
+                    <h5 class="font-bold text-lg text-lime-700">Ali Ashour</h5>
+                    <p class="leading-7 text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe amet dicta quaerat laborum nisi earum sit aut atque eum exercitationem.</p>
+                </div>
+                <div class=" md:w-1/3 bg-amber-50 flex flex-col items-center p-6 space-y-2 rounded-lg border border-yellow-950">
+                    <img src="images/omar-samir.jpg" class="w-16 rounded-full -mt-11">
+                    <h5 class="font-bold text-lg text-lime-700">Omar Samir</h5>
+                    <p class="leading-7 text-sm">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe amet dicta quaerat laborum nisi earum sit aut atque eum exercitationem.</p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    
+    <footer class="bg-yellow-950">
+        <div class="container mx-auto text-amber-50 px-5 py-10 flex flex-col-reverse justify-between space-y-8 md:flex-row md:space-y-0">
+
+            <div class="flex flex-col items-center justify-between space-y-12 md:space-y-2">
+                <div class="text-center mt-6 md:mt-0">
+                    Copyright &copy; 2024, All Right Reserved
+                </div>
+                <div>
+                    <img src="images/pet-lover-logo.png" alt="logo" class="max-w-24">
+                </div>
+
+                <div class="mt-7 flex space-x-4">
+                    <a href="#" class="text-3xl "><i class="ri-facebook-circle-fill"></i></a>
+                    <a href="#" class="text-3xl"><i class="ri-instagram-fill"></i></a>
+                    <a href="#" class="text-3xl"><i class="ri-youtube-fill"></i></a>
+                    <a href="#" class="text-3xl"><i class="ri-linkedin-box-fill"></i></a>
+                    <a href="#" class="text-3xl"><i class="ri-twitter-fill"></i></a>
+                </div>
+            </div>
+
+            <div class="flex justify-around space-x-32">
+                <div class="flex flex-col space-y-2">
+                    <a href="#" class="hover:text-slate-300 ho">Home</a>
+                    <a href="#" class="hover:text-slate-300">About</a>
+                    <a href="#" class="hover:text-slate-300">Contact</a>
+                </div>
+
+                <div class="flex flex-col space-y-2">
+                    <a href="#" class="hover:text-slate-300 ho">Home</a>
+                    <a href="#" class="hover:text-slate-300">Credits</a>
+                    <a href="#" class="hover:text-slate-300">Privacy</a>
+                </div>
+            </div>
+
+            <div class="flex flex-col justify-between">
+                <form action="#">
+                    <div class="flex space-x-3">
+                        <input type="text" placeholder="Subscribe to Newsletter" class="flex-1 py-2 px-2 md:px-6 rounded-full">
+                        <button class="bg-amber-500 hover:bg-amber-600 rounded-full px-2 py-2 md:px-4">Send</button>
+                    </div>
+                    
+                </form>
+                <div class="hidden md:block">
+                    Copyright &copy; 2024, All Right Reserved
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
